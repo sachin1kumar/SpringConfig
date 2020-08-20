@@ -1,0 +1,16 @@
+myCustomMessage: Hello
+myList:
+  values: one,two,three
+
+dbValues: "{connectionURL: 'http://...', username: 'admin', password: 'admin'}"
+
+db:
+  name: "sachin"
+  pass: "admin"
+  port: 8080
+
+management.endpoints.web.exposure.include: "*"
+
+spring:
+  profiles:
+    active: test
